@@ -1,0 +1,11 @@
+[package]
+name = "pivot-engine"
+version = "0.2.0"
+edition = "2021"
+description = "A high-performance columnar data engine with DuckDB-compatible SQL"
+license = "MIT"
+
+[lib]
+name = "pivot_engine"
+path = "src/lib.rs"
+crate-type = ["lib", "cdylib"]
